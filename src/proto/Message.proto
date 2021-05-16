@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+
+    message MessageRequest {
+        string Name = 1; //用户姓名
+        string Msg = 2; //消息内容
+        int64 Code = 3; //消息类型 0：消息 200：心跳
+    }
+    
+    message MessageResponse {
+        string Name = 1; //用户姓名
+        string Msg = 2; //消息内容
+        int64 Code = 3; //消息类型 0：消息 200：心跳
+        string Time = 4; //消息时间
+
+    }
+
