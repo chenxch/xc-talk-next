@@ -1,16 +1,24 @@
+<!--
+ * @Description: 
+ * @Author: chenxch
+ * @Date: 2021-05-18 11:11:26
+-->
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+  <!-- <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" /> -->
+  <talk-window></talk-window>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
+import TalkWindow from './components/TalkWindow.vue'
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    TalkWindow
   }
 })
 </script>
