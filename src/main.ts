@@ -12,8 +12,8 @@ import 'ant-design-vue/dist/antd.css'
 
 const app = createApp(App)
 
-app.mount('#app')
 app.use(Antd)
+app.mount('#app')
 
 app.use(
   VueNativeSock,
@@ -32,6 +32,6 @@ app.use(
     // 重连间隔时间
     reconnectionDelay: 3000
   }
-);
+)
 
 export default app;

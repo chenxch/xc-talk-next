@@ -10,17 +10,17 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
-import TalkWindow from './components/TalkWindow.vue'
+import { defineComponent } from 'vue';
+import HelloWorld from './components/HelloWorld.vue';
+import TalkWindow from './components/TalkWindow.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
     HelloWorld,
-    TalkWindow
-  }
-})
+    TalkWindow,
+  },
+});
 </script>
 
 <style>

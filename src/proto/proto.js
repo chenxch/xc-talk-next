@@ -7,15 +7,15 @@ var $root = ($protobuf.roots["default"] || ($protobuf.roots["default"] = new $pr
 .addJSON({
   MessageRequest: {
     fields: {
-      Name: {
+      name: {
         type: "string",
         id: 1
       },
-      Msg: {
+      msg: {
         type: "string",
         id: 2
       },
-      Code: {
+      code: {
         type: "int64",
         id: 3
       }
@@ -23,19 +23,19 @@ var $root = ($protobuf.roots["default"] || ($protobuf.roots["default"] = new $pr
   },
   MessageResponse: {
     fields: {
-      Name: {
+      name: {
         type: "string",
         id: 1
       },
-      Msg: {
+      msg: {
         type: "string",
         id: 2
       },
-      Code: {
+      code: {
         type: "int64",
         id: 3
       },
-      Time: {
+      time: {
         type: "string",
         id: 4
       }
